@@ -1,0 +1,18 @@
+# ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#
+# XYZ Engine
+#
+# ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+name: xyz_engine_generators_annotations
+description: Annotations for the xyz_engine_generators package
+version: 0.0.1
+
+environment:
+  sdk: '>=2.18.3 <3.0.0'
+
+dependencies:
+  collection: ^1.17.0
+
+dev_dependencies:
+  lints: ^2.0.0
