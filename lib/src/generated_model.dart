@@ -66,7 +66,7 @@ abstract class GeneratedModel {
   //
   //
 
-  Future<void> toFirebase({bool merge = true, String? path}) {
+  Future<void> toFirestore({bool merge = true, String? path}) {
     throw UnimplementedError();
   }
 
@@ -74,7 +74,7 @@ abstract class GeneratedModel {
   //
   //
 
-  Future<void> deleteFromFirebase({String? path}) {
+  Future<void> deleteFromFirestore({String? path}) {
     throw UnimplementedError();
   }
 }
