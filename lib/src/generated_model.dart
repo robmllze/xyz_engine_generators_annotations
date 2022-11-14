@@ -58,7 +58,7 @@ abstract class GeneratedModel {
   // Utils for Firebase
   // ---------------------------------------------------------------------------
 
-  dynamic refFirebase([String? path]) {
+  dynamic refFirestore([String? path]) {
     throw UnimplementedError();
   }
 
