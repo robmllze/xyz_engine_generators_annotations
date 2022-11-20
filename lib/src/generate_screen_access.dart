@@ -27,8 +27,14 @@ class GenerateScreenAccess {
   /// by setting [isRedirectable] to `false`.
   final bool isRedirectable;
 
-  // ...
-  final Map<String, String> configuration;
+  /// ...
+  final Map<String, String> internalParameters;
+
+  /// ...
+  final Set<String> queryParameters;
+
+  /// ...
+  final List<String> pathSegments;
 
   /// Generates boiler-plate code for the annotated screen class to make it
   /// accessible.
@@ -37,6 +43,8 @@ class GenerateScreenAccess {
     this.isOnlyAccessibleIfSignedIn = false,
     this.isOnlyAccessibleIfSignedOut = false,
     this.isRedirectable = true,
-    this.configuration = const {},
+    this.internalParameters = const {},
+    this.queryParameters = const {},
+    this.pathSegments = const [],
   });
 }

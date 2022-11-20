@@ -6,6 +6,8 @@
 
 abstract class GeneratedModel {
   /// Unique identifier fo this model.
+  ///
+  /// Related key: `K_ID` or "id"
   String? id;
 
   /// Converts a this object to a JSON object.
