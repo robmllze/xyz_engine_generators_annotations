@@ -41,20 +41,20 @@ abstract class GeneratedModel {
   void updateWith<T extends GeneratedModel>(T other);
 
   /// Returns a reference to this model on the server at the default path or at
-  /// [skeletonPathOverride] if provided.
-  dynamic refServer([String? skeletonPathOverride]) {
+  /// [serverPathSkeleton] if provided.
+  dynamic refServer([String? serverPathSkeleton]) {
     throw UnimplementedError();
   }
 
   /// Writes this model to the server at the default path or at
-  /// [skeletonPathOverride] if provided.
-  Future<void> toServer({bool merge = true, String? skeletonPathOverride}) {
+  /// [serverPathSkeleton] if provided.
+  Future<void> toServer({bool merge = true, String? serverPathSkeleton}) {
     throw UnimplementedError();
   }
 
   /// Deletes this model from the server at the default path or at
-  /// [skeletonPathOverride] if provided.
-  Future<void> deleteFromServer({String? skeletonPathOverride}) {
+  /// [serverPathSkeleton] if provided.
+  Future<void> deleteFromServer({String? serverPathSkeleton}) {
     throw UnimplementedError();
   }
 }

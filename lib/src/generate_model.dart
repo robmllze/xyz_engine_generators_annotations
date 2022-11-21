@@ -5,7 +5,7 @@
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 class GenerateModel {
-  final String path;
+  final String serverPathSkeleton;
   final Map<String, String> parameters;
-  const GenerateModel({this.path = "", required this.parameters});
+  const GenerateModel({this.serverPathSkeleton = "", required this.parameters});
 }
