@@ -46,9 +46,14 @@ abstract class GeneratedModel {
     throw UnimplementedError();
   }
 
-  /// Writes this model to the server at the default path or at
-  /// [serverPathSkeleton] if provided.
-  Future<void> toServer({bool merge = true, String? serverPathSkeleton}) {
+  /// Writes this model and the fields [writeAlso] to the server at the default
+  /// path or at [serverPathSkeleton] if provided, with the given [options].
+  Future<void> toServer({
+    bool merge = true,
+    String? serverPathSkeleton,
+    Map<String, dynamic>? writeAlso,
+    Map<Symbol, dynamic>? options,
+  }) {
     throw UnimplementedError();
   }
 
