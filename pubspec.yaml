@@ -6,7 +6,7 @@
 
 name: xyz_engine_generators_annotations
 description: Annotations for the _xyz_engine_generators package
-version: 0.2.0
+version: 0.2.1
 publish_to: none
 environment:
   sdk: '>=2.18.2 <3.0.0'
