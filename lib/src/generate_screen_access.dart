@@ -42,7 +42,7 @@ class GenerateScreenAccess {
     this.isOnlyAccessibleIfSignedInAndVerified = false,
     this.isOnlyAccessibleIfSignedIn = false,
     this.isOnlyAccessibleIfSignedOut = false,
-    this.isRedirectable = true,
+    this.isRedirectable = false,
     this.internalParameters = const {},
     this.queryParameters = const {},
     this.pathSegments = const [],
