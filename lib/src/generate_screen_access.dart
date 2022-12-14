@@ -25,7 +25,7 @@ class GenerateScreenAccess {
   /// by typing https://medikienct.app/delete_account in the browser. This will
   /// start the app and redirect to "/delete_account". This can be disabled
   /// by setting [isRedirectable] to `false`.
-  final bool isRedirectable;
+  final bool? isRedirectable;
 
   /// ...
   final Map<String, String> internalParameters;
@@ -42,7 +42,7 @@ class GenerateScreenAccess {
     this.isOnlyAccessibleIfSignedInAndVerified = false,
     this.isOnlyAccessibleIfSignedIn = false,
     this.isOnlyAccessibleIfSignedOut = false,
-    this.isRedirectable = false,
+    this.isRedirectable,
     this.internalParameters = const {},
     this.queryParameters = const {},
     this.pathSegments = const [],
